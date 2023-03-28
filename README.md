@@ -28,5 +28,14 @@ password 칸에 비밀번호를 넣어 댓글 삭제 시 비밀번호가 일치�
 #### Mongodb Atlas
 ![image](https://user-images.githubusercontent.com/127705281/228098206-cd184874-1485-4153-bdbe-169111670af5.png)
 mongodb atlas를 이용해서 팀 전체가 접근 가능한 공동 DB를 개설해 DB를 관리했습니다.
+
 DB 내용에 대한 접근은 멤버로 추가 된 팀원만 확인 가능하며, 
 Robo 3T등 사이트가 아닌 다른 IP에서 접속하기 위해선 DB 접근 IP Whitelist에 추가되어야 합니다.
+
+#### static/img 폴더
+인터넷 상의 이미지 링크를 따오지 않고, 사진을 따로 static 하위 폴더인 img에 넣어 관리했습니다.
+
+파일 이름은 profile 사진의 경우 1-profile과 같은 형식,
+discography의 경우 1-dis-1과 같은 형식으로 이름을 붙입니다.
+
+현재 github repository에는 예시 사진 1장만 commit 되어 있습니다.
